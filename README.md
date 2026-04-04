@@ -37,3 +37,11 @@ West Midlands Care and Community Group is a medium-sized UK organisation with 18
 ## Current Stage
 Project 1 — Cloud Foundation, Identity, Governance, and Administrative Control
 Current lesson: Identity foundation build
+
+## Current Stage
+Project 1 — Cloud Foundation, Identity, Governance, and Administrative Control
+
+Completed so far:
+- Identity design
+- Sample users and groups
+- First group-based Azure access assignment
