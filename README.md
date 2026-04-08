@@ -45,3 +45,5 @@ Completed so far:
 - Identity design
 - Sample users and groups
 - First group-based Azure access assignment
+- Initial governance structure with tagged resource groups
+- Governance controls with resource lock and Azure Policy
