@@ -1,58 +1,89 @@
-# West Midlands Care and Community Group Cloud Platform
+# West Midlands Care and Community Group — Azure Cloud Platform
 
 ## Overview
-This repository contains a professional Azure cloud platform project designed for a fictional UK organisation with 180 staff across multiple locations.
 
-The platform is being designed and built as a real-world delivery portfolio, not as a toy lab. It covers:
+This repository documents the design and delivery of a secure, governed, and
+automated Azure cloud platform for West Midlands Care and Community Group, a
+United Kingdom care and community services organisation with 180 staff across
+three West Midlands offices.
 
-- Identity and access management
-- Governance and administrative control
-- Secure networking
-- Business workload hosting
-- Monitoring, backup, and recovery
-- Infrastructure as Code with Bicep and Terraform
-- Operational documentation
-- Security engineering practices
+The work is delivered as a structured engineering programme, built around four
+connected projects.
 
-## Business Scenario
-West Midlands Care and Community Group is a medium-sized UK organisation with 180 staff, hybrid workers, sensitive data, and a need for a secure cloud-first Azure environment.
+## The Company
 
-## Project Goals
-- Build a secure Azure foundation
-- Design for scalability and operational clarity
-- Use repeatable deployment methods
-- Document architecture and engineering decisions professionally
-- Produce portfolio-grade evidence for employers and senior technical review
+- **Name:** West Midlands Care and Community Group
+- **Sector:** United Kingdom care and community services (healthcare-adjacent)
+- **Size:** 180 staff
+- **Locations:** 3 offices across the West Midlands
+- **Workforce model:** hybrid, remote, and office-based
+- **Current state:** Microsoft 365 in use; no Azure environment at start
+- **Regulatory context:** United Kingdom General Data Protection Regulation;
+  National Health Service Data Security and Protection Toolkit awareness
 
-## Project Structure
-- docs/
-- diagrams/
-- azure-cli/
-- bicep/
-- terraform/
-- runbooks/
-- scripts/
-- security/
+## The Four Projects
 
-## Current Stage
-Project 1 — Cloud Foundation, Identity, Governance, and Administrative Control
-Current lesson: Identity foundation build
+1. **Cloud Foundation, Identity, Governance, and Administrative Control**
+   Secure, governed, scalable Azure foundation.
+2. **Secure Network and Workforce Access Platform**
+   Zero-Trust-aligned network design for people, admins, and workloads.
+3. **Business Workload Hosting Platform**
+   Secure, resilient hosting for business workloads.
+4. **DevSecOps, Automation, Monitoring, and Security Operations**
+   Delivery engineering, detection, and operational maturity.
 
-## Current Stage
-Project 1 — Cloud Foundation, Identity, Governance, and Administrative Control
+## Progress
 
-Completed so far:
-- Identity design
-- Sample users and groups
-- First group-based Azure access assignment
-- Initial governance structure with tagged resource groups
-- Governance controls with resource lock and Azure Policy
+### Project 1 — Cloud Foundation, Identity, Governance, and Administrative Control
 
+- [x] Identity design
+- [x] Sample users and groups
+- [x] First group-based access assignment (Role-Based Access Control)
+- [x] Governance structure with tagged resource groups
+- [x] Governance controls (resource locks and Azure Policy)
+- [x] Subscription and management structure (current state vs target state)
+- [x] Platform naming and tagging standards
+- [x] Cost management foundations
+- [ ] Key Vault and secrets management
+- [ ] Conditional Access and Privileged Identity Management
 
-Completed so far:
-- Identity design
-- Sample users and groups
-- First group-based Azure access assignment
-- Initial governance structure with tagged resource groups
-- Governance controls with resource lock and Azure Policy
-- Current-state versus target-state subscription and management structure design
+### Project 2 — Secure Network and Workforce Access Platform
+
+Not yet started.
+
+### Project 3 — Business Workload Hosting Platform
+
+Not yet started.
+
+### Project 4 — DevSecOps, Automation, Monitoring, and Security Operations
+
+Not yet started.
+
+## Repository Structure
+
+- `azure-cli/` — Azure Command-Line Interface scripts used in lessons
+- `bicep/` — Bicep templates (to be introduced later in the programme)
+- `diagrams/` — architecture and design diagrams
+- `docs/` — design documents and written standards
+- `runbooks/` — operational procedures
+- `scripts/` — helper scripts, including per-lesson rebuild and destroy scripts
+- `security/` — security design artefacts, threat models, and controls
+- `terraform/` — Terraform configurations (to be introduced later in the programme)
+
+## Operating Discipline
+
+This platform is delivered under a strict build-learn-validate-document-commit-
+destroy-rebuild discipline. No chargeable resources are left running between
+lessons. Nothing important depends on manual portal clicks or memory.
+Everything important is reproducible from code.
+
+## Cost Discipline
+
+Personal monthly spend tolerance: under £15. A subscription-level budget is
+configured with tiered alerts (20%, 50%, 80%) and a forecasted 100% alert, plus
+cost anomaly detection. See `docs/cost-management-foundations.md` for detail.
+
+## Author
+
+Junior cloud engineer, West Midlands Care and Community Group (scenario).
+Programme delivered under senior cloud security architect mentorship.
