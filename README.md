@@ -84,6 +84,5 @@ configured with tiered alerts (20%, 50%, 80%) and a forecasted 100% alert, plus
 cost anomaly detection. See `docs/cost-management-foundations.md` for detail.
 
 ## Author
-
-Junior cloud engineer, West Midlands Care and Community Group (scenario).
-Programme delivered under senior cloud security architect mentorship.
+West Midlands Care and Community Group (scenario).
+Programme delivered under cloud security architect Fola Agbaje.
