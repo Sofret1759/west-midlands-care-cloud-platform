@@ -24,3 +24,5 @@ Guidance alone is not enough in real cloud environments. Governance becomes stro
 
 ## Cost Awareness
 Good governance supports cost awareness by improving tagging, ownership visibility, and environment control.
+
+I will be invoving Shedrack to work with me on planning the cost of the first quarter of the cloud formation.
