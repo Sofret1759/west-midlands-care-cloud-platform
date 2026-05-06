@@ -44,10 +44,10 @@ connected projects.
 - [x] Subscription and management structure (current state vs target state)
 - [x] Platform naming and tagging standards
 - [x] Cost management foundations
-- [ ] Key Vault and secrets management
+- [x] Key Vault and secrets management
 - [ ] Conditional Access and Privileged Identity Management
 
-### Project 2 — Secure Network and Workforce Access Platform
+### Project 2 — Secure Network and Workforce Access Platform   
 
 Not yet started.
 
