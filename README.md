@@ -45,7 +45,12 @@ connected projects.
 - [x] Platform naming and tagging standards
 - [x] Cost management foundations
 - [x] Key Vault and secrets management
-- [ ] Conditional Access and Privileged Identity Management
+- [x] Conditional Access and Privileged Identity Management
+- [x] Project 1 closeout and architecture document
+
+**Status: Complete.** See `docs/project-1-architecture.md` for the
+consolidated design document.
+
 
 ### Project 2 — Secure Network and Workforce Access Platform   
 
