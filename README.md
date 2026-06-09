@@ -54,7 +54,17 @@ consolidated design document.
 
 ### Project 2 — Secure Network and Workforce Access Platform   
 
-Not yet started.
+
+- [x] Project 2 introduction and virtual network design
+- [ ] Hub and production spoke deployment
+- [ ] Network Security Groups and traffic rules
+- [ ] Virtual Private Network Gateway and site-to-site connectivity
+- [ ] Azure Firewall and egress control
+- [ ] Azure Bastion for administrative access
+- [ ] Private endpoints for Platform-as-a-Service resources
+- [ ] Network monitoring with Network Watcher
+
+**Status: In progress.** See `docs/network-design.md` for the topology design and address allocation.
 
 ### Project 3 — Business Workload Hosting Platform
 
