@@ -57,7 +57,7 @@ consolidated design document.
 
 - [x] Project 2 introduction and virtual network design
 - [x] Hub and production spoke deployment
-- [ ] Network Security Groups and traffic rules
+- [x] Network Security Groups and traffic rules
 - [ ] Virtual Private Network Gateway and site-to-site connectivity
 - [ ] Azure Firewall and egress control
 - [ ] Azure Bastion for administrative access
